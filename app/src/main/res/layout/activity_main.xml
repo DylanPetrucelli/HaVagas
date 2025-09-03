@@ -48,6 +48,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/telefone_ll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -70,6 +71,26 @@
                 android:layout_height="wrap_content"
                 android:text="@string/residencial_rb"/>
         </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/celular_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/telefone_ll">
+        <CheckBox
+            android:id="@+id/celular_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/celular_cb"/>
+        <EditText
+            android:id="@+id/celular_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telefone_et"
+            android:visibility="invisible"
+            />
     </LinearLayout>
 
 
