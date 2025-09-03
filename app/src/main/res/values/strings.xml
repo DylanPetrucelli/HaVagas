@@ -7,4 +7,10 @@
     <string name="telefone_et">Número de telefone</string>
     <string name="comercial_rb">Comercial</string>
     <string name="residencial_rb">Residencial</string>
+    <string name="celular_cb">Adicionar número de telefone móvel?</string>
+    <string-array name="sexo_strArray">
+        <item>Feminino</item>
+        <item>Masculino</item>
+        <item>Outro</item>
+    </string-array>
 </resources>
