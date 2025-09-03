@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HaVagas</string>
+    <string name="titulo">Há Vagas</string>
+    <string name="nome_et">Nome</string>
+    <string name="email_et">E-mail</string>
+    <string name="receber_email">Deseja receber emails?</string>
+    <string name="telefone_et">Número de telefone</string>
+    <string name="comercial_rb">Comercial</string>
+    <string name="residencial_rb">Residencial</string>
+</resources>
