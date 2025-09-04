@@ -11,14 +11,14 @@
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:id="@+id/bigDiv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
 
             <TextView
                 android:id="@+id/tituloTV"
@@ -101,7 +101,9 @@
                     android:id="@+id/celular_ed"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:autofillHints="phone"
                     android:hint="@string/telefone_et"
+                    android:inputType="phone"
                     android:visibility="invisible"
                     />
             </LinearLayout>
@@ -189,10 +191,123 @@
                     android:id="@+id/grad_et_inst"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
+                    android:inputType="text"
                     android:visibility="visible"
                     android:hint="Instituição"/>
             </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/form_layout_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/form_layout_3"
+                >
+                <CheckBox
+                    android:id="@+id/esp_cb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/f_esp"/>
+                <EditText
+                    android:id="@+id/esp_et_ano"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:visibility="visible"
+                    android:hint="Ano de conclusão"/>
+                <EditText
+                    android:id="@+id/esp_et_inst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:visibility="visible"
+                    android:hint="Instituição"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/form_layout_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/form_layout_4"
+                >
+                <CheckBox
+                    android:id="@+id/mest_cb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/f_mest"/>
+                <EditText
+                    android:id="@+id/mest_et_ano"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:visibility="visible"
+                    android:hint="Ano de conclusão"/>
+                <EditText
+                    android:id="@+id/mest_et_inst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:visibility="visible"
+                    android:hint="Instituição"/>
+                <EditText
+                    android:id="@+id/mest_et_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:visibility="visible"
+                    android:hint="Título de monografia"/>
+                <EditText
+                    android:id="@+id/mest_et_orientador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:visibility="visible"
+                    android:hint="Orientador"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/form_layout_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/form_layout_5"
+                >
+                <CheckBox
+                    android:id="@+id/doc_cb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/f_dout"/>
+                <EditText
+                    android:id="@+id/doc_et_ano"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:visibility="visible"
+                    android:hint="Ano de conclusão"/>
+                <EditText
+                    android:id="@+id/doc_et_inst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:visibility="visible"
+                    android:hint="Instituição"/>
+                <EditText
+                    android:id="@+id/doc_et_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:visibility="visible"
+                    android:hint="Título de monografia"/>
+                <EditText
+                    android:id="@+id/doc_et_orientador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:visibility="visible"
+                    android:hint="Orientador"/>
+            </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>
