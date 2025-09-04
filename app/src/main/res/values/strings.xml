@@ -14,4 +14,10 @@
         <item>Outro</item>
     </string-array>
     <string name="formacao_tv">Formação acadêmica</string>
+    <string name="f_fundamental">Ensino fundamental completo</string>
+    <string name="f_medio">Ensino médio completo</string>
+    <string name="f_grad">Graduação completa</string>
+    <string name="f_esp">Especialização</string>
+    <string name="f_mest">Mestrado</string>
+    <string name="f_dout">Doutorado</string>
 </resources>
