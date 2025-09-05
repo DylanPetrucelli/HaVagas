@@ -103,5 +103,37 @@ class MainActivity : AppCompatActivity() {
                 binding.docEtOrientador.visibility = View.GONE
             }
         }
+
+        binding.limparBt.setOnClickListener {
+            binding.nomeEt.setText("")
+            binding.emailEt.setText("")
+            binding.emailCb.isChecked = false
+            binding.telefoneEt.setText("")
+            binding.telefoneRb1.isChecked = false
+            binding.telefoneRb2.isChecked = false
+            binding.celularCb.isChecked = false
+            binding.celularEd.setText("")
+            binding.fundamentalCb.isChecked = false
+            binding.medioCb.isChecked = false
+            binding.gradCb.isChecked = false
+            binding.espCb.isChecked = false
+            binding.mestCb.isChecked = false
+            binding.docCb.isChecked = false
+            binding.fundamentalEt.setText("")
+            binding.medioEt.setText("")
+            binding.gradEtAno.setText("")
+            binding.gradEtInst.setText("")
+            binding.espEtAno.setText("")
+            binding.espEtInst.setText("")
+            binding.mestEtAno.setText("")
+            binding.mestEtTitulo.setText("")
+            binding.mestEtInst.setText("")
+            binding.mestEtOrientador.setText("")
+            binding.docEtAno.setText("")
+            binding.docEtTitulo.setText("")
+            binding.docEtTitulo.setText("")
+            binding.docEtOrientador.setText("")
+            binding.interesseEt.setText("")
+        }
     }
 }
