@@ -104,7 +104,7 @@
                     android:autofillHints="phone"
                     android:hint="@string/telefone_et"
                     android:inputType="phone"
-                    android:visibility="invisible"
+                    android:visibility="gone"
                     />
             </LinearLayout>
 
@@ -331,13 +331,8 @@
                     android:layout_height="wrap_content"
                     android:text="Limpar"
                     android:layout_weight="1"/>
-
-
             </LinearLayout>
-
-
         </LinearLayout>
-
     </ScrollView>
 
 
