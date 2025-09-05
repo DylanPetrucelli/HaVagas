@@ -34,6 +34,74 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        binding.fundamentalCb.setOnClickListener {
+            if (binding.fundamentalEt.isGone) {
+                binding.fundamentalEt.visibility = View.VISIBLE
+            }
+            else {
+                binding.fundamentalEt.visibility = View.GONE
+            }
+        }
 
+        binding.medioCb.setOnClickListener {
+            if (binding.medioEt.isGone) {
+                binding.medioEt.visibility = View.VISIBLE
+            }
+            else {
+                binding.medioEt.visibility = View.GONE
+            }
+        }
+
+        binding.gradCb.setOnClickListener {
+            if (binding.gradEtAno.isGone) {
+                binding.gradEtAno.visibility = View.VISIBLE
+                binding.gradEtInst.visibility = View.VISIBLE
+            }
+            else {
+                binding.gradEtAno.visibility = View.GONE
+                binding.gradEtInst.visibility = View.GONE
+            }
+        }
+
+        binding.espCb.setOnClickListener {
+            if (binding.espEtAno.isGone) {
+                binding.espEtAno.visibility = View.VISIBLE
+                binding.espEtInst.visibility = View.VISIBLE
+            }
+            else {
+                binding.espEtAno.visibility = View.GONE
+                binding.espEtInst.visibility = View.GONE
+            }
+        }
+
+        binding.mestCb.setOnClickListener {
+            if (binding.mestEtAno.isGone) {
+                binding.mestEtAno.visibility = View.VISIBLE
+                binding.mestEtInst.visibility = View.VISIBLE
+                binding.mestEtTitulo.visibility = View.VISIBLE
+                binding.mestEtOrientador.visibility = View.VISIBLE
+            }
+            else {
+                binding.mestEtAno.visibility = View.GONE
+                binding.mestEtInst.visibility = View.GONE
+                binding.mestEtTitulo.visibility = View.GONE
+                binding.mestEtOrientador.visibility = View.GONE
+            }
+        }
+
+        binding.docCb.setOnClickListener {
+            if (binding.docEtAno.isGone) {
+                binding.docEtAno.visibility = View.VISIBLE
+                binding.docEtInst.visibility = View.VISIBLE
+                binding.docEtTitulo.visibility = View.VISIBLE
+                binding.docEtOrientador.visibility = View.VISIBLE
+            }
+            else {
+                binding.docEtAno.visibility = View.GONE
+                binding.docEtInst.visibility = View.GONE
+                binding.docEtTitulo.visibility = View.GONE
+                binding.docEtOrientador.visibility = View.GONE
+            }
+        }
     }
 }

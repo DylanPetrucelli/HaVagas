@@ -143,7 +143,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Ano de formatura"/>
 
             </LinearLayout>
@@ -164,7 +164,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Ano de formatura"/>
             </LinearLayout>
 
@@ -185,14 +185,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Ano de conclusão"/>
                 <EditText
                     android:id="@+id/grad_et_inst"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Instituição"/>
             </LinearLayout>
 
@@ -213,14 +213,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Ano de conclusão"/>
                 <EditText
                     android:id="@+id/esp_et_inst"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Instituição"/>
             </LinearLayout>
 
@@ -241,28 +241,28 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Ano de conclusão"/>
                 <EditText
                     android:id="@+id/mest_et_inst"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Instituição"/>
                 <EditText
                     android:id="@+id/mest_et_titulo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Título de monografia"/>
                 <EditText
                     android:id="@+id/mest_et_orientador"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Orientador"/>
             </LinearLayout>
 
@@ -283,28 +283,28 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Ano de conclusão"/>
                 <EditText
                     android:id="@+id/doc_et_inst"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Instituição"/>
                 <EditText
                     android:id="@+id/doc_et_titulo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Título de monografia"/>
                 <EditText
                     android:id="@+id/doc_et_orientador"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:hint="Orientador"/>
             </LinearLayout>
 
